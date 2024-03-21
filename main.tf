@@ -201,6 +201,7 @@ resource "aws_key_pair" "hashicat" {
 
 module "s3_bucket" {
   source              = "app.terraform.io/mrkcreativeminds/s3-bucket/aws"
-  version             = "1.0.0"
+  version             = "1.0.0git status
+  "
   s3_object_ownership = "BucketOwnerEnforced"
 }
